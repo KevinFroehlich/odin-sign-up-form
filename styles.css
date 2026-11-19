@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'ringbearer';
+    src: url(./fonts/RingbearerMedium-51mgZ.ttf);
+}
+
+@font-face {
+    font-family: hobbiton;
+    src: url(./fonts/HobbitonHandscrawlRegular-eZA3.ttf);
+}
+
+@font-face {
+    font-family: middleearth;
+    src: url(fonts/Middleearth-ao6m.ttf);
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'ringbearer';
+}
+h1 {
+    font-family:middleearth;
+}
+
+.fullpage-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.background-image {
+    height: 100%;
+    width: 100%;
+
+}
+
+.background-logo-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   background: url(./pics/palantir2.png);
+   background-position: center;
+    height: 100%;
+    width: 30%;
+}
+
+.logo-background-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 18%;
+    width: 100%;
+    background-color: rgba(216, 212, 212, 0.5);
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+.sauron-logo {
+    z-index: 1;
+    border-radius: 250px;
+    height: 15vh;
+}
+
+.logo-name {
+    font-size: 3rem;
+    margin-left: 10px;
+}
+
+.photo-credit {
+    color: aliceblue;
+    align-self: center;  
+}
+
+.header-form-submit-container {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+}
+
+.header {
+    display: flex;
+    height: 33.333%;
+    width: 100%;
+    font-size: 2rem;
+    line-height: 3rem;
+    align-items: center;
+    justify-content: center;
+    font-family: middleearth;
+}
+
+
+.account-form {
+    height: 66.666%;
+    width: 100%;
+   
+}
+
+.input-area {
+    height: 50%;
+    width: 100%;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    background-color: aliceblue;
+    box-shadow: 0 10px 15px gray;
+    z-index: 1;
+    
+}
+
+.input-area p {
+    margin-bottom: 50px;
+}
+.submit-area {
+    display: flex;
+    height: 50%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: middleearth;
+}
+
+.form-row {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+   
+}
+
+.input-area label {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input-area input {
+    height: 2rem;
+    width: 15rem;
+}
+
+.submit-area button {
+    width: 300px;
+    height: 70px;
+    border-radius: 10px;
+    font-size: 2rem;
+    font-family: middleearth;
+}
+
+.submit-area p {
+    font-size: 1.5rem;
+}
