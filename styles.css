@@ -145,12 +145,22 @@ h1 {
     width: 15rem;
 }
 
+.input-area input:user-invalid {
+    border: 2px red solid;
+}
+
+.input-area input:focus {
+    border: 2px blue solid;
+}
+
 .submit-area button {
     width: 300px;
     height: 70px;
     border-radius: 10px;
     font-size: 2rem;
     font-family: middleearth;
+    color: aliceblue;
+    background-color: #596D48;
 }
 
 .submit-area p {
